@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace ObligatorioTallerPOO_Daniel_Luis_Yesica
 {
-    partial class Form1
+    partial class Torneo
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -10,7 +10,7 @@
         /// <summary>
         /// Limpiar los recursos que se estén utilizando.
         /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        /// <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Torneo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "Torneo";
+            this.Text = "Torneo";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

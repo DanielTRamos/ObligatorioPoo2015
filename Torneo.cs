@@ -5,13 +5,14 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace ObligatorioTallerPOO_Daniel_Luis_Yesica
 {
-    public partial class Form1 : Form
+    public partial class Torneo : Form
     {
-        public Form1()
+        public Torneo()
         {
             InitializeComponent();
         }
