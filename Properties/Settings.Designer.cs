@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApplication1.Properties {
+namespace ObligatorioPoo2015.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ObligatorioTallerPOO_Daniel_Luis_Yesica
+namespace ObligatorioPoo2015
 {
     static class Program
     {

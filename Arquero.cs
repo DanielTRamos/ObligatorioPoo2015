@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace WindowsFormsApplication1
+namespace ObligatorioPoo2015
 {
     class Arquero : Jugador
     {

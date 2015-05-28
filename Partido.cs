@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ObligatorioTallerPOO_Daniel_Luis_Yesica
+namespace ObligatorioPoo2015
 {
 public class Partido
 {

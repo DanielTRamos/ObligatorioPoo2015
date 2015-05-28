@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ObligatorioTallerPOO_Daniel_Luis_Yesica
+namespace ObligatorioPoo2015
 {
     public partial class Torneo : Form
     {

@@ -8,7 +8,7 @@
     <ProjectGuid>{7C7E704C-BDC5-4485-96BF-450D6866542E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <RootNamespace>ObligatorioPoo2015</RootNamespace>
     <AssemblyName>WindowsFormsApplication1</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
