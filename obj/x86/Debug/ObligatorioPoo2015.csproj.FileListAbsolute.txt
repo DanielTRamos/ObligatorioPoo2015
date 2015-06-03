@@ -1,0 +1,8 @@
+C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Debug\ObligatorioPoo2015.csprojResolveAssemblyReference.cache
+C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Debug\ObligatorioPoo2015.Properties.Resources.resources
+C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Debug\ObligatorioPoo2015.Torneo.resources
+C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Debug\ObligatorioPoo2015.csproj.GenerateResource.Cache
+C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Debug\WindowsFormsApplication1.pdb

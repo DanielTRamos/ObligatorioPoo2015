@@ -64,6 +64,7 @@
     <Compile Include="Arbitro.cs" />
     <Compile Include="Arquero.cs" />
     <Compile Include="AtributosJugador.cs" />
+    <Compile Include="equipo.cs" />
     <Compile Include="Estadio.cs" />
     <Compile Include="IPersona.cs" />
     <Compile Include="Jugador.cs" />

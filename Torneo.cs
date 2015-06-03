@@ -16,5 +16,17 @@ namespace ObligatorioPoo2015
         {
             InitializeComponent();
         }
+
+        private void Torneo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       private void button2_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("START!!!!");
+            Equipo cnf = new Equipo("Nacional");
+            cnf.conformacion();
+        }
     }
 }

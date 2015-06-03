@@ -7,18 +7,11 @@ namespace ObligatorioPoo2015
 {
     class Arquero : Jugador
     {
-        private string equipo;
+              
 
-        public string Equipo
-        {
-            get { return equipo; }
-            set { equipo = value; }
-        }
-       
-
-        /** Constructor : nombre apellido, máximo en porteria, salto, habilidad, int presición, int potencia*/
+        /** Constructor : nombre apellido, máximo en porteria, salto, habilidad, presición, potencia*/
         public Arquero (string nombre, string apellido)
-             : base(nombre,apellido, 10, 10, 4, 4, 6)            
+             : base(nombre,apellido, 10, 10, 3, 3, 5)            
         {          
 
         }
