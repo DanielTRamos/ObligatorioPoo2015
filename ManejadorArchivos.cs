@@ -4,7 +4,7 @@ using System.IO;
 
 namespace ObligatorioPoo2015
 {
-public class ManejadorArchivos
+    public class ManejadorArchivos
     {
         public void Escribir(string nomArchivo, string texto)
         {
@@ -13,16 +13,26 @@ public class ManejadorArchivos
             writer.Close();
         }
 
+        /* Lector de archivos, se le agrega try - catch */
         public ArrayList Leer(string nomArchivo)
         {
-            StreamReader reader = new StreamReader(nomArchivo);
-            ArrayList salida = new ArrayList();
-            while (reader.Peek() > -1)
+            try
             {
-                salida.Add(reader.ReadLine());
+                StreamReader reader = new StreamReader(nomArchivo);
+                ArrayList salida = new ArrayList();
+                while (reader.Peek() > -1)
+                {
+                    salida.Add(reader.ReadLine());
+                }
+                reader.Close();
+                return salida;
             }
-            reader.Close();
-            return salida;
-        }
+            catch (Exception)
+            {
+                Console.Write("El archivo: [" + nomArchivo + " ] no existe");
+                return null;
+            }
+        }      
+        
     }
 }

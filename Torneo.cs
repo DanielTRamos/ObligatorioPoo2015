@@ -26,7 +26,13 @@ namespace ObligatorioPoo2015
         {
             Console.WriteLine("START!!!!");
             Equipo cnf = new Equipo("Nacional");
-            cnf.conformacion();
+            cnf.conformacion2();
         }
+
+       private void button1_Click(object sender, EventArgs e)
+       {
+           ManejadorArchivos lector = new ManejadorArchivos();
+           lector.Leer("C:/Users/Luis Emilio/Documents/GitHub/ObligatorioPoo2015/test.txt");
+       }
     }
 }

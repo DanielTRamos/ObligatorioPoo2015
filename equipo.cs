@@ -2,47 +2,64 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Collections;
+using System.IO;
 
 namespace ObligatorioPoo2015
 {
-    class Equipo
+    class Equipo:IEquipo
     {
-        private String nombre;
-        private List<Jugador> jugadores = new List<Jugador>();
-        private Arquero numero1 = new Arquero ("Jorge", "Baba");
+        private String nombreEquipo;
+        private ArrayList listaJugadoresEquipo = new ArrayList();
+        private Int32 golesRecibidos;
+        private Int32 puntosEnTorneo;
 
-        private Arquero numero2 = new Arquero("Esteban", "Quito");
-
-
-
-        public String Nombre { get { return nombre; }}
-
-        //public Jugador JugadoresDelEquipo { }
-        public Equipo (String name){
-            nombre = name;
-            jugadores.Add (numero1);
-            jugadores.Add(numero2);
-            
-    }
-
-        
-        /* lista de jugadores que conforman el equipo */
-        public String conformacion ()
+        public Equipo(String nombre)
         {
-            StringBuilder l = new StringBuilder();
-            foreach (Jugador i in jugadores)
-            {
-                l.Append("Nombre:  ").Append(i.Nombre.ToString()).Append(" , Apellido:  ").Append(i.Apellido.ToString()).Append(" | "); ;
+            nombreEquipo = nombre;
+            golesRecibidos = 0;
+            puntosEnTorneo = 0;
+        }  
 
-            }
-            string result = l.ToString(); // Get string from StringBuilder
-            Console.WriteLine(result);
-            return result;
+
+        public string NombreEquipo
+        {
+            get { return nombreEquipo; }
         }
 
+        public int GolesRecibidos
+        {
+            get
+            {
+               return golesRecibidos;
+            
+            }
+            set
+            {
+                golesRecibidos = value;
+            }
+        }
 
+        public int PuntosEnTorneo
+        {
+            get
+            {
+                return puntosEnTorneo;
+            }
+            set
+            {
+                puntosEnTorneo = value;
+            }
+        }
 
+        public ArrayList ListaJugadoresEquipo
+        {
+            get { return listaJugadoresEquipo; }
+        }
 
-
+        public void adquirirJugador(IJugador jugador)
+        {
+            listaJugadoresEquipo.Add(jugador);
+        }
     }
 }

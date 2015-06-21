@@ -5,3 +5,4 @@ C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Release\Obligat
 C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Release\ObligatorioPoo2015.csproj.GenerateResource.Cache
 C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Release\WindowsFormsApplication1.exe
 C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Release\WindowsFormsApplication1.pdb
+C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Release\ObligatorioPoo2015.csprojResolveAssemblyReference.cache
