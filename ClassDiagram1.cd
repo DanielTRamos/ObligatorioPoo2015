@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ObligatorioPoo2015.Arbitro" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAACEAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Arbitro.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.325" Collapsed="true" />
+  </Class>
+  <Class Name="ObligatorioPoo2015.AtributosJugador" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAABAAAIAACECABAhBAAAA=</HashCode>
+      <FileName>AtributosJugador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObligatorioPoo2015.Equipo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAEAiAAAAAgAAAAAAAAAAAQAAAAEAAEAAAAAQAAAA=</HashCode>
+      <FileName>equipo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ObligatorioPoo2015.Estadio" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estadio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObligatorioPoo2015.Jugador" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQCaACEAAgAgAACAAIAAgAGAAIAcAAEAEA=</HashCode>
+      <FileName>Jugador.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ObligatorioPoo2015.ManejadorArchivos" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ManejadorArchivos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObligatorioPoo2015.Partido" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Partido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObligatorioPoo2015.Program" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObligatorioPoo2015.Torneo" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAYAAAAAGAAEAAAAAA=</HashCode>
+      <FileName>Torneo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObligatorioPoo2015.Properties.Resources" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObligatorioPoo2015.Properties.Settings" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ObligatorioPoo2015.IArbitro" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>IArbitro.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObligatorioPoo2015.IEquipo" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAEAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>IEquipo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObligatorioPoo2015.IJugador" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACaAAAAAgAAAACAAAAAAAGAAAAQAAAAAA=</HashCode>
+      <FileName>IJugador.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObligatorioPoo2015.IPersona" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPersona.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

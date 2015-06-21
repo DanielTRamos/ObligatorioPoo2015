@@ -62,10 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arbitro.cs" />
-    <Compile Include="Arquero.cs" />
     <Compile Include="AtributosJugador.cs" />
     <Compile Include="equipo.cs" />
     <Compile Include="Estadio.cs" />
+    <Compile Include="IArbitro.cs" />
     <Compile Include="IEquipo.cs" />
     <Compile Include="IJugador.cs" />
     <Compile Include="IPersona.cs" />
@@ -93,6 +93,7 @@
     <EmbeddedResource Include="Torneo.resx">
       <DependentUpon>Torneo.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

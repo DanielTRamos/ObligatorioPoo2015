@@ -121,5 +121,25 @@ namespace ObligatorioPoo2015
                 edad = value;
             }
         }
+
+        /**
+         * Constructor:
+         * @author: Luis TITO
+         * @param: String posicion, String nombre, Int32 edad, String apellido, Int32 patear, Int32 cabecear, Int32 atajar, Int32 regatear, Int32 tirarTiroLibre, IEquipo equipo)
+         */
+        public Jugador(string posicion, string nombre, Int32 edad, string apellido, Int32 patear, Int32 cabecear, Int32 atajar, Int32 regatear, Int32 tirarTiroLibre, IEquipo equipo)
+        {
+            this.posicion = posicion;
+            this.nombre = nombre;
+            this.edad = edad;
+            this.apellido = apellido;
+            this.patear = patear;
+            this.cabecear = cabecear;
+            this.atajar = atajar;
+            this.regatear = regatear;
+            this.tirarTiroLibre = tirarTiroLibre;
+            this.equipo = equipo;
+            this.goles = 0;
+        }
     }
 }
