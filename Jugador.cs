@@ -5,66 +5,66 @@ using System.Text;
 
 namespace ObligatorioPoo2015
 {
-    class Jugador: IJugador
+    class Jugador : IJugador
     {
         private string posicion;
         private string nombre;
         private string apellido;
         private int edad;
-        private string Posición;
-        private int Patear;
-        private int Cabecear;
-        private int Atajar;
-        private int Regatear;
-        private int TirarTiroLibre;
-        private int GolesHechos;
+        private string posición;
+        private int patear;
+        private int cabecear;
+        private int atajar;
+        private int regatear;
+        private int tirarTiroLibre;
+        private int golesHechos;
 
         public string Posición
         {
             get
             {
-                throw new NotImplementedException();
+                return posicion;
             }
             set
             {
-                throw new NotImplementedException();
+                posicion = value;
             }
         }
 
         public int Patear
         {
-            get { throw new NotImplementedException(); }
+            get { return patear; }
         }
 
         public int Cabecear
         {
-            get { throw new NotImplementedException(); }
+            get { return cabecear; }
         }
 
         public int Atajar
         {
-            get { throw new NotImplementedException(); }
+            get { return atajar; }
         }
 
         public int Regatear
         {
-            get { throw new NotImplementedException(); }
+            get { return regatear; }
         }
 
         public int TirarTiroLibre
         {
-            get { throw new NotImplementedException(); }
+            get { return tirarTiroLibre; }
         }
 
         public int GolesHechos
         {
             get
             {
-                throw new NotImplementedException();
+                return golesHechos;
             }
             set
             {
-                throw new NotImplementedException();
+                golesHechos = value;
             }
         }
 
@@ -72,23 +72,16 @@ namespace ObligatorioPoo2015
         {
             get
             {
-                throw new NotImplementedException();
+                return nombre;
             }
-            set
-            {
-                throw new NotImplementedException();
-            }
+
         }
 
         public string Apellido
         {
             get
             {
-                throw new NotImplementedException();
-            }
-            set
-            {
-                throw new NotImplementedException();
+                return apellido;
             }
         }
 
@@ -102,6 +95,22 @@ namespace ObligatorioPoo2015
             {
                 throw new NotImplementedException();
             }
+        }
+
+        public Jugador(string name, string apel, int age, string posicion,  int patear, int cabecear, int atajar, int regatear, int tirarTiroLibre)
+        {
+            nombre = name;
+            apellido = apel;
+            edad = age;
+            this.posicion = posicion;
+            this.patear = patear;
+            this.cabecear = cabecear;
+            this.atajar = atajar;
+            this.regatear = regatear;
+            this.tirarTiroLibre = tirarTiroLibre;
+            golesHechos = 0;
+
+
         }
     }
 }

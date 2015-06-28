@@ -7,8 +7,8 @@ namespace ObligatorioPoo2015
 {
     interface IPersona
     {
-        string Nombre { get; set; }
-        string Apellido { get; set; }
+        string Nombre { get; }
+        string Apellido { get;}
         int Edad { get; set; }
         }
     }

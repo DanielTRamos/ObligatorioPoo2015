@@ -7,10 +7,10 @@ using System.IO;
 
 namespace ObligatorioPoo2015
 {
-    class Equipo:IEquipo
+    class Equipo : IEquipo
     {
         private String nombreEquipo;
-        private ArrayList listaJugadoresEquipo = new ArrayList();
+        private ArrayList listaJugadoresEquipo;
         private Int32 golesRecibidos;
         private Int32 puntosEnTorneo;
 
@@ -19,7 +19,8 @@ namespace ObligatorioPoo2015
             nombreEquipo = nombre;
             golesRecibidos = 0;
             puntosEnTorneo = 0;
-        }  
+            listaJugadoresEquipo = new ArrayList();
+        }
 
 
         public string NombreEquipo
@@ -31,8 +32,8 @@ namespace ObligatorioPoo2015
         {
             get
             {
-               return golesRecibidos;
-            
+                return golesRecibidos;
+
             }
             set
             {
@@ -57,18 +58,21 @@ namespace ObligatorioPoo2015
             get { return listaJugadoresEquipo; }
         }
 
-        public void adquirirJugador(IJugador jugador)
-        {
-            listaJugadoresEquipo.Add(jugador);
-        }
 
-        public void Equipo(string name)
-        {
-            nombreEquipo = name;
-            golesRecibidos = 0;
-            puntosEnTorneo = 0;
-        }
 
-       
+        public Int32 AdquirirJugador(IJugador j)
+        {
+            if (listaJugadoresEquipo.Contains(j))
+            {
+                Console.WriteLine("El jugador ya está en el equipo ");
+                return -1;
+            }
+            else
+            {
+                listaJugadoresEquipo.Add(j);
+                Console.WriteLine("El jugador fue agregado al equipo ");
+                return 1;
+            }
+        }
     }
 }
