@@ -61,5 +61,14 @@ namespace ObligatorioPoo2015
         {
             listaJugadoresEquipo.Add(jugador);
         }
+
+        public void Equipo(string name)
+        {
+            nombreEquipo = name;
+            golesRecibidos = 0;
+            puntosEnTorneo = 0;
+        }
+
+       
     }
 }
