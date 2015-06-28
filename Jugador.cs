@@ -26,7 +26,7 @@ namespace ObligatorioPoo2015
 
         /* ----------------------------------Variables del Jugador ____  */
         private int goles;
-        private IEquipo equipo;
+        private IEquipo team;
 
 
         /* ----------------------------------Atributos ____  */
@@ -74,14 +74,14 @@ namespace ObligatorioPoo2015
             }
         }
 
-        public void SetEquipo(IEquipo team)
+        public void SetEquipo(Equipo team)
         {
-            equipo = team;
+            this.team = team;
         }
 
         public IEquipo GetEquipo()
         {
-            return equipo;
+            return team;
         }
 
         /* ----------------------------------Datos  ____  */
@@ -127,7 +127,7 @@ namespace ObligatorioPoo2015
          * @author: Luis TITO
          * @param: String posicion, String nombre, Int32 edad, String apellido, Int32 patear, Int32 cabecear, Int32 atajar, Int32 regatear, Int32 tirarTiroLibre, IEquipo equipo)
          */
-        public Jugador(string posicion, string nombre, Int32 edad, string apellido, Int32 patear, Int32 cabecear, Int32 atajar, Int32 regatear, Int32 tirarTiroLibre, IEquipo equipo)
+        public Jugador(string posicion, string nombre, Int32 edad, string apellido, Int32 patear, Int32 cabecear, Int32 atajar, Int32 regatear, Int32 tirarTiroLibre, IEquipo team)
         {
             this.posicion = posicion;
             this.nombre = nombre;
@@ -138,7 +138,7 @@ namespace ObligatorioPoo2015
             this.atajar = atajar;
             this.regatear = regatear;
             this.tirarTiroLibre = tirarTiroLibre;
-            this.equipo = equipo;
+            this.team = team;
             this.goles = 0;
         }
     }
