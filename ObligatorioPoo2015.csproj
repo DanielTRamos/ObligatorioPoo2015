@@ -69,6 +69,7 @@
     <Compile Include="IEquipo.cs" />
     <Compile Include="IJugador.cs" />
     <Compile Include="IPersona.cs" />
+    <Compile Include="Jugador.cs" />
     <Compile Include="ManejadorArchivos.cs" />
     <Compile Include="Partido.cs" />
     <Compile Include="Program.cs" />
