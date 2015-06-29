@@ -45,13 +45,7 @@ namespace ObligatorioPoo2015
                 String nombre = Convert.ToString(celdas[0]);
                 String apellido = Convert.ToString(celdas[1]);
                 Int32 edad = Convert.ToInt32(celdas[2]);
-                String posicion = Convert.ToString(celdas[3]);
-                Int32 patear = Convert.ToInt32(celdas[4]);
-                Int32 cabecear = Convert.ToInt32(celdas[5]);
-                Int32 atajar = Convert.ToInt32(celdas[6]);
-                Int32 regatear = Convert.ToInt32(celdas[7]);
-                Int32 tiroLibre = Convert.ToInt32(celdas[8]);
-
+                
                 // (string name, string apel, int age, string posicion,  int patear, int cabecear, int atajar, int regatear, int tirarTiroLibre)
 
                 Console.WriteLine(nombre, " , " ,apellido);
@@ -90,6 +84,13 @@ namespace ObligatorioPoo2015
 
         private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            EscuelaDeJugadores auf = new EscuelaDeJugadores();
+            auf.CrearArquero();
 
         }
     }

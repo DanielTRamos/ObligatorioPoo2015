@@ -20,6 +20,7 @@ namespace ObligatorioPoo2015
             golesRecibidos = 0;
             puntosEnTorneo = 0;
             listaJugadoresEquipo = new ArrayList();
+
         }
 
 
@@ -57,11 +58,8 @@ namespace ObligatorioPoo2015
         {
             get { return listaJugadoresEquipo; }
         }
-
-
-
-
-
+        
+        
         public bool AdquirirJugador(IJugador j)
         {
             if (listaJugadoresEquipo.Contains(j))
@@ -84,5 +82,7 @@ namespace ObligatorioPoo2015
                 j.Presentarse();
             }
         }
+
+
     }
 }

@@ -1,0 +1,7 @@
+Pierluigi , Collina , 66 ,
+Darío , Uríaco , 30 ,
+Jorge , Larrionda , 29 ,
+Andrés , Fodorzuc , 28 ,
+Isack , Glass , 32 ,
+Andres , Cuña , 28 ,
+Pablo , Garín , 26 ,

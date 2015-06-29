@@ -67,8 +67,10 @@
     <Compile Include="Arbitro.cs" />
     <Compile Include="Arquero.cs" />
     <Compile Include="AtributosJugador.cs" />
+    <Compile Include="Defenza.cs" />
     <Compile Include="delantero.cs" />
     <Compile Include="equipo.cs" />
+    <Compile Include="EscuelaDeJugadores.cs" />
     <Compile Include="Estadio.cs" />
     <Compile Include="IArbitro.cs" />
     <Compile Include="IEquipo.cs" />
@@ -76,6 +78,7 @@
     <Compile Include="IPersona.cs" />
     <Compile Include="Jugador.cs" />
     <Compile Include="ManejadorArchivos.cs" />
+    <Compile Include="MedioCampo.cs" />
     <Compile Include="Partido.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -8,9 +8,19 @@ namespace ObligatorioPoo2015
     {
         public void Escribir(string nomArchivo, string texto)
         {
-            StreamWriter writer = new StreamWriter(nomArchivo, true);
-            writer.WriteLine(texto);
-            writer.Close();
+            try
+            { 
+                StreamWriter writer = new StreamWriter(nomArchivo, true);
+                writer.WriteLine(texto);
+                writer.Close();
+
+            }
+            catch (Exception)
+            {
+                Console.Write("El archivo: [" + nomArchivo + " ] no existe");
+                throw;
+            }
+           
         }
 
         /* Lector de archivos, se le agrega try - catch */

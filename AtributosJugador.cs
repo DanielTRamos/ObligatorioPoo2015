@@ -46,11 +46,11 @@ namespace ObligatorioPoo2015
         Random r = new Random();// int aleatorio4 = r.Next(3, 12);dentro del rango
 
 
-        public AtributosJugador(int kick, int regate, int parar, int head, int pot)
+        public AtributosJugador(int kick, int regate, int atajar, int head, int pot)
         {
             this.patear = r.Next(1, kick);
             this.regatear = r.Next(1, regate);
-            this.atajar = r.Next(1, parar) ;
+            this.atajar = r.Next(1, atajar) ;
             this.cabecear = r.Next(1, head);
             this.tirarTirosLibres = r.Next(1, pot);
 
