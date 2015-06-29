@@ -7,27 +7,53 @@ namespace ObligatorioPoo2015
 {
     class AtributosJugador
     {
-        private int porteria;
-        private int salto;
-        private int habilidad;
-        private int presicion;
-        private int potencia;
+        private int patear;
+        private int regatear;
+        private int atajar;
+        private int cabecear;
+        private int tirarTirosLibres;
+
+        public int Patear
+        {
+            get { return patear; }
+            set { patear = value; }
+        }
+
+        public int Regatear
+        {
+            get { return regatear; }
+            set { regatear = value; }
+        }
+
+        public int Atajar
+        {
+            get { return atajar; }
+            set { atajar = value; }
+        }
+
+        public int Cabecear
+        {
+            get { return cabecear; }
+            set { cabecear = value; }
+        }
+
+        public int TirarTirosLibres
+        {
+            get { return tirarTirosLibres; }
+            set { tirarTirosLibres = value; }
+        }
+
         Random r = new Random();// int aleatorio4 = r.Next(3, 12);dentro del rango
 
 
-        public int Portería {get { return porteria; } }
-        public int Salto { get { return salto; } }
-        public int Habilidad { get { return habilidad; }  }
-        public int Presicion { get { return presicion; }  }
-        public int Potencia { get { return potencia; }  }
-
-        public AtributosJugador(int p, int s, int h, int pre, int pot)
+        public AtributosJugador(int kick, int regate, int parar, int head, int pot)
         {
-            this.porteria = r.Next(1, p) + r.Next(1, s);
-            this.habilidad = r.Next(1, h);
-            this.presicion = r.Next(1, pre) + (habilidad / 2);
-            this.potencia = r.Next(1, pre) + (habilidad / 2);
+            this.patear = r.Next(1, kick);
+            this.regatear = r.Next(1, regate);
+            this.atajar = r.Next(1, parar) ;
+            this.cabecear = r.Next(1, head);
+            this.tirarTirosLibres = r.Next(1, pot);
+
         }
-       
     }
 }

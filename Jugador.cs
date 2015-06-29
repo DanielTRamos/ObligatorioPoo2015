@@ -7,19 +7,19 @@ namespace ObligatorioPoo2015
 {
     class Jugador : IJugador
     {
-        private string posicion;
-        private string nombre;
-        private string apellido;
-        private int edad;
-        private string posición;
-        private int patear;
-        private int cabecear;
-        private int atajar;
-        private int regatear;
-        private int tirarTiroLibre;
-        private int golesHechos;
+        protected string posicion;
+        protected string nombre;
+        protected string apellido;
+        protected int edad;        
+        protected int patear;
+        protected int cabecear;
+        protected int atajar;
+        protected int regatear;
+        protected int tirarTiroLibre;
+        protected int golesHechos;
+        AtributosJugador atributos;
 
-        public string Posición
+        public string Posicion
         {
             get
             {
@@ -27,7 +27,7 @@ namespace ObligatorioPoo2015
             }
             set
             {
-                posicion = value;
+                this.posicion = value;
             }
         }
 
@@ -89,14 +89,15 @@ namespace ObligatorioPoo2015
         {
             get
             {
-                throw new NotImplementedException();
+                return edad;
             }
             set
             {
-                throw new NotImplementedException();
+                edad = value;
             }
         }
 
+        /*
         public Jugador(string name, string apel, int age, string posicion,  int patear, int cabecear, int atajar, int regatear, int tirarTiroLibre)
         {
             nombre = name;
@@ -109,8 +110,11 @@ namespace ObligatorioPoo2015
             this.regatear = regatear;
             this.tirarTiroLibre = tirarTiroLibre;
             golesHechos = 0;
-
-
+        }
+        */
+        public void Presentarse()
+        {
+            Console.WriteLine("Mi nombre es : "+ nombre.ToString()+" "+ apellido.ToString()+ " tengo "+ edad.ToString() + " años y juego de "+ posicion.ToString());
         }
     }
 }

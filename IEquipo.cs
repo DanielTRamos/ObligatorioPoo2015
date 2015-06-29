@@ -13,6 +13,7 @@ namespace ObligatorioPoo2015
         Int32 GolesRecibidos { get; set; }
         Int32 PuntosEnTorneo { get; set; }
         ArrayList ListaJugadoresEquipo {get;}
-        Int32 AdquirirJugador(IJugador j);  
+        Boolean AdquirirJugador(IJugador j);
+        void presentarJugadores();
     }
 }

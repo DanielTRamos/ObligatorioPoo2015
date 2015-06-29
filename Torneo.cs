@@ -41,7 +41,6 @@ namespace ObligatorioPoo2015
 
             foreach (String linea in datos)
             {
-
                 object[] celdas = linea.Split(',');
                 String nombre = Convert.ToString(celdas[0]);
                 String apellido = Convert.ToString(celdas[1]);
@@ -56,7 +55,7 @@ namespace ObligatorioPoo2015
                 // (string name, string apel, int age, string posicion,  int patear, int cabecear, int atajar, int regatear, int tirarTiroLibre)
 
                 Console.WriteLine(nombre, " , " ,apellido);
-                IJugador jugador = new Jugador(nombre, apellido, edad, posicion, patear, cabecear, atajar, regatear, tiroLibre);
+                IJugador jugador = new Arquero(nombre, apellido, edad);
                 CargarJugador(jugador);
 
             }
@@ -70,6 +69,28 @@ namespace ObligatorioPoo2015
             {
                 e.AdquirirJugador(js);
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            foreach (IEquipo eq in listaDeEquipos)
+            {
+
+                eq.presentarJugadores();
+            }
+
+
+
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

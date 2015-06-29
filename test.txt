@@ -1,3 +1,2 @@
 Luis , TITO , 18 , Atacante , 10 , 9 , 1 , 10 , 10 , 
 Daniel , MIGUEL , 18 , Prostituta , 1 , 1 , 1 , 1 , 1 , 
-vale todo

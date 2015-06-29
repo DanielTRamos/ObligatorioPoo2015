@@ -60,18 +60,28 @@ namespace ObligatorioPoo2015
 
 
 
-        public Int32 AdquirirJugador(IJugador j)
+
+
+        public bool AdquirirJugador(IJugador j)
         {
             if (listaJugadoresEquipo.Contains(j))
             {
                 Console.WriteLine("El jugador ya está en el equipo ");
-                return -1;
+                return false;
             }
             else
             {
                 listaJugadoresEquipo.Add(j);
                 Console.WriteLine("El jugador fue agregado al equipo ");
-                return 1;
+                return true;
+            }
+        }
+
+        public void presentarJugadores()
+        {
+            foreach (IJugador j in listaJugadoresEquipo)
+            {
+                j.Presentarse();
             }
         }
     }

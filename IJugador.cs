@@ -14,5 +14,6 @@ namespace ObligatorioPoo2015
         int Regatear { get; }
         int TirarTiroLibre { get; }
         int GolesHechos { get; set; }
+        void Presentarse();
     }
 }
