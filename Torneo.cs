@@ -14,6 +14,9 @@ namespace ObligatorioPoo2015
     public partial class Torneo : Form
     {
         private ArrayList listaDeEquipos;
+        EscuelaDeJugadores potrero = new EscuelaDeJugadores();
+
+
         public Torneo()
         {
             InitializeComponent();
@@ -35,25 +38,7 @@ namespace ObligatorioPoo2015
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ManejadorArchivos lector = new ManejadorArchivos();
-
-            ArrayList datos = lector.Leer("C:/Users/Luis Emilio/Documents/GitHub/ObligatorioPoo2015/test.txt");
-
-            foreach (String linea in datos)
-            {
-                object[] celdas = linea.Split(',');
-                String nombre = Convert.ToString(celdas[0]);
-                String apellido = Convert.ToString(celdas[1]);
-                Int32 edad = Convert.ToInt32(celdas[2]);
-                
-                // (string name, string apel, int age, string posicion,  int patear, int cabecear, int atajar, int regatear, int tirarTiroLibre)
-
-                Console.WriteLine(nombre, " , " ,apellido);
-                IJugador jugador = new Arquero(nombre, apellido, edad);
-                CargarJugador(jugador);
-
-            }
-
+            potrero.CargarJugadores();
         }
 
 
@@ -89,8 +74,9 @@ namespace ObligatorioPoo2015
 
         private void button4_Click(object sender, EventArgs e)
         {
-            EscuelaDeJugadores auf = new EscuelaDeJugadores();
-            auf.CrearArquero();
+            IJugador Atacante = potrero.BrindarDelantero();
+            Atacante.Presentarse();
+
 
         }
     }

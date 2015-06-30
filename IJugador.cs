@@ -7,12 +7,7 @@ namespace ObligatorioPoo2015
 {
     interface IJugador:IPersona
     {
-        string Posicion { get; set; }
-        int Patear { get; }
-        int Cabecear { get; }
-        int Atajar { get; }
-        int Regatear { get; }
-        int TirarTiroLibre { get; }
+        
         int GolesHechos { get; set; }
         void Presentarse();
     }

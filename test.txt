@@ -1,25 +1,2 @@
-Luis , TITO , 18 ,
-Daniel , MIGUEL , 18 , 
-Fernando , Muslera , 25 , Arquero
-Martín Silva 	Vasco da Gama – Brasil
-Rodrigo Muñoz 	Libertad – Paraguay
-Maximiliano Pereira 	Benfica – Portugal
-José María Giménez 	Atlético de Madrid – España
-Diego Godín 	Atlético de Madrid – España
-Sebastián Coates 	Sunderland – Inglaterra
-Gastón Silva 	Torino – Italia
-Álvaro Pereira 	Estudiantes LP – Argentina
-Mathías Corujo 	U. de Chile – Chile
-Jorge Fucile 	Nacional – Uruguay
-Álvaro González 	Torino – Italia
-Carlos Sánchez 	River Plate – Argentina
-Egidio Arévalo Ríos 	Tigres – México
-Guzmán Pereira 	U. de Chile – Chile
-Nicolás Lodeiro 	Boca Jrs. – Argentina
-Cristian Rodríguez 	–
-Giorgian De Arrascaeta 	Cruzeiro – Brasil
-Diego Rolan 	Bordeaux – Francia
-Jonathan Rodríguez 	Benfica – Portugal
-Edinson Cavani 	PSG – Francia
-Cristhian Stuani 	Espanyol – España
-Abel Hernández
+Luis , TITO , 18
+Evelyn , Lujan , 1

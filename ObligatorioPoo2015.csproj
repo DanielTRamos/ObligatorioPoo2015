@@ -72,8 +72,10 @@
     <Compile Include="equipo.cs" />
     <Compile Include="EscuelaDeJugadores.cs" />
     <Compile Include="Estadio.cs" />
+    <Compile Include="FuenteDeArchivos.cs" />
     <Compile Include="IArbitro.cs" />
     <Compile Include="IEquipo.cs" />
+    <Compile Include="IEscuelaDeJugadores.cs" />
     <Compile Include="IJugador.cs" />
     <Compile Include="IPersona.cs" />
     <Compile Include="Jugador.cs" />
