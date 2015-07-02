@@ -16,6 +16,7 @@ namespace ObligatorioPoo2015
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Inicial());
             Application.Run(new Torneo());
         }
     }

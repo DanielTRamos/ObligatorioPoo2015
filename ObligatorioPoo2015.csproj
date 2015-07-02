@@ -72,15 +72,28 @@
     <Compile Include="equipo.cs" />
     <Compile Include="EscuelaDeJugadores.cs" />
     <Compile Include="Estadio.cs" />
+    <Compile Include="FabricaDeEquipos.cs" />
     <Compile Include="FuenteDeArchivos.cs" />
     <Compile Include="IArbitro.cs" />
     <Compile Include="IEquipo.cs" />
     <Compile Include="IEscuelaDeJugadores.cs" />
     <Compile Include="IJugador.cs" />
+    <Compile Include="Inicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicial.Designer.cs">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </Compile>
     <Compile Include="IPersona.cs" />
     <Compile Include="Jugador.cs" />
     <Compile Include="ManejadorArchivos.cs" />
     <Compile Include="MedioCampo.cs" />
+    <Compile Include="Opciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opciones.Designer.cs">
+      <DependentUpon>Opciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Partido.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +103,12 @@
     <Compile Include="Torneo.designer.cs">
       <DependentUpon>Torneo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Inicial.resx">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opciones.resx">
+      <DependentUpon>Opciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -25,9 +25,11 @@ namespace ObligatorioPoo2015
         {
             arqueros = CargarPorteros(fuente.Deporteros);            
             delanteros = CargarDelantero(fuente.DeDelanteros);
-           
+            defenzas = CargarDefenzaso(fuente.DeDefenzas);
+            medioCampos = CargarMedioCampo(fuente.DeMedioCampo);
         }
-            
+
+       
         /// <summary>
         /// De la lista de jugadores, brinda el primero y sucesivamente hasta el último. sin repetir.
         /// </summary>
@@ -113,9 +115,6 @@ namespace ObligatorioPoo2015
 
                 IJugador portero = new Arquero (nombre, apellido, edad );
                 lista.Add(portero);
-                Console.WriteLine(nombre, " , ", apellido);
-
-                
             }
             return lista;
         }
@@ -137,5 +136,42 @@ namespace ObligatorioPoo2015
             }
             return lista;
         }
+
+        private IList<IJugador> CargarMedioCampo(string p)
+        {
+            ManejadorArchivos lector = new ManejadorArchivos();
+            List<IJugador> lista = new List<IJugador>();
+            ArrayList datos = lector.Leer(p);
+            foreach (String linea in datos)
+            {
+                object[] celdas = linea.Split(',');
+                Console.WriteLine(celdas.Length.ToString());
+                String nombre = Convert.ToString(celdas[0]);
+                String apellido = Convert.ToString(celdas[1]);
+                Int32 edad = Convert.ToInt32(celdas[2]);
+                IJugador mc = new MedioCampo(nombre, apellido, edad);
+                lista.Add(mc);
+            }
+            return lista;
+        }
+
+        private IList<IJugador> CargarDefenzaso(string p)
+        {
+            ManejadorArchivos lector = new ManejadorArchivos();
+            List<IJugador> lista = new List<IJugador>();
+            ArrayList datos = lector.Leer(p);
+            foreach (String linea in datos)
+            {
+                object[] celdas = linea.Split(',');
+                Console.WriteLine(celdas.Length.ToString());
+                String nombre = Convert.ToString(celdas[0]);
+                String apellido = Convert.ToString(celdas[1]);
+                Int32 edad = Convert.ToInt32(celdas[2]);
+                IJugador def = new Defenza (nombre, apellido, edad);
+                lista.Add(def);
+            }
+            return lista;
+        }
+            
     }
 }

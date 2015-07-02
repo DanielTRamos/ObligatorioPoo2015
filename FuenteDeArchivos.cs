@@ -14,7 +14,11 @@ namespace ObligatorioPoo2015
         private string deMedioCampo = "C:/Users/Luis Emilio/Documents/GitHub/ObligatorioPoo2015/MedioCampo.txt";
         private string deArbitros = "C:/Users/Luis Emilio/Documents/GitHub/ObligatorioPoo2015/Arbitro.txt";
 
-        // --------------------------------Get / Set 
+        private string deEquipos = "C:/Users/Luis Emilio/Documents/GitHub/ObligatorioPoo2015/Equipos.txt";
+
+
+
+               // --------------------------------Get / Set 
         public string Deporteros
         {
             get { return deporteros; }
@@ -45,5 +49,10 @@ namespace ObligatorioPoo2015
             set { deArbitros = value; }
         }
 
+        public string DeEquipos
+        {
+            get { return deEquipos; }
+            set { deEquipos = value; }
+        }
     }
 }

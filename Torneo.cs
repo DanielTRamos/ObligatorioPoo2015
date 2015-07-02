@@ -15,6 +15,7 @@ namespace ObligatorioPoo2015
     {
         private ArrayList listaDeEquipos;
         EscuelaDeJugadores potrero = new EscuelaDeJugadores();
+        FabricaDeEquipos ISEF = new FabricaDeEquipos();
 
 
         public Torneo()
@@ -28,20 +29,7 @@ namespace ObligatorioPoo2015
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Console.WriteLine("START!!!!");
-            Equipo cnf = new Equipo("Nacional"); // luego se crea lector como en el caso de jugador.
-            listaDeEquipos.Add(cnf);
-            Console.WriteLine("NACIONAL");
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            potrero.CargarJugadores();
-        }
-
-
+               
         private void CargarJugador(IJugador js)
         {
             foreach (IEquipo e in listaDeEquipos)
@@ -50,18 +38,13 @@ namespace ObligatorioPoo2015
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            foreach (IEquipo eq in listaDeEquipos)
-            {
-
-                eq.presentarJugadores();
-            }
-
-
-
-        }
-
+       
+        // ---------------  Barra de MENU:
+        /// <summary>
+        /// Barra de menú
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -72,12 +55,36 @@ namespace ObligatorioPoo2015
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            IJugador Atacante = potrero.BrindarDelantero();
-            Atacante.Presentarse();
 
+        // -----------------Botones:
+        private void button4_Click(object sender, EventArgs e)// ---------  AYUDA
+        {
+            this.Close();
+        }
+
+        private void Btn_Opciones_Click(object sender, EventArgs e) // -------- OPCIONES
+        {
+            ISEF.CargarEquipos();
 
         }
+
+        private void btn_salir_Click(object sender, EventArgs e) // ---------  SALIR
+        {
+            this.Close();
+        }
+
+        private void Btn_CargarJugadores_Click(object sender, EventArgs e)
+        {
+            potrero.CargarJugadores();
+        }
+
+        private void Btn_Inicio_Click(object sender, EventArgs e)// --------    UEFA
+        {
+            Console.WriteLine("START!!!!");
+            Equipo cnf = new Equipo("Nacional"); // luego se crea lector como en el caso de jugador.
+            listaDeEquipos.Add(cnf);
+            Console.WriteLine("NACIONAL");
+        }
+
     }
 }

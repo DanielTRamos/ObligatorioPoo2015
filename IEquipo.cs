@@ -12,7 +12,7 @@ namespace ObligatorioPoo2015
         String NombreEquipo { get; }
         Int32 GolesRecibidos { get; set; }
         Int32 PuntosEnTorneo { get; set; }
-        ArrayList ListaJugadoresEquipo {get;}
+        IList<IJugador> ListaJugadoresEquipo {get;}
         Boolean AdquirirJugador(IJugador j);
         void presentarJugadores();
     }

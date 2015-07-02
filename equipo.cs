@@ -10,7 +10,7 @@ namespace ObligatorioPoo2015
     class Equipo : IEquipo
     {
         private String nombreEquipo;
-        private ArrayList listaJugadoresEquipo;
+        private List<IJugador> listaJugadoresEquipo;
         private Int32 golesRecibidos;
         private Int32 puntosEnTorneo;
 
@@ -19,8 +19,7 @@ namespace ObligatorioPoo2015
             nombreEquipo = nombre;
             golesRecibidos = 0;
             puntosEnTorneo = 0;
-            listaJugadoresEquipo = new ArrayList();
-
+            listaJugadoresEquipo = new List<IJugador>();
         }
 
 
@@ -54,11 +53,13 @@ namespace ObligatorioPoo2015
             }
         }
 
-        public ArrayList ListaJugadoresEquipo
+        /// <summary>
+        /// Devuelve la lista de jugadores del equipo
+        /// </summary>
+        public IList<IJugador> ListaJugadoresEquipo
         {
             get { return listaJugadoresEquipo; }
-        }
-        
+        }        
         
         public bool AdquirirJugador(IJugador j)
         {

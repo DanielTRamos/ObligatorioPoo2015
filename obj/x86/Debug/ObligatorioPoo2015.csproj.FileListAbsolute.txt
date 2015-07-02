@@ -6,3 +6,4 @@ C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\bin\Debug\WindowsFormsA
 C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\bin\Debug\WindowsFormsApplication1.pdb
 C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Debug\WindowsFormsApplication1.exe
 C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Luis Emilio\Documents\GitHub\ObligatorioPoo2015\obj\x86\Debug\ObligatorioPoo2015.Inicial.resources
